@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  font-size: 15px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.heading p {
+  width: 540px;
+  margin: auto;
+  color: hsl(230, 5%, 57%);
+}
+
+.heading .top-heading {
+  font-weight: 300;
+  margin-bottom: -10px;
+  color: hsl(231, 7%, 37%);
+}
+
+.heading .bottom-heading {
+  color: hsl(234, 16%, 37%);
+}
+
+.cards__collection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 30px;
+}
+
+.card {
+  max-width: 350px;
+  min-width: 280px;
+  padding: 25px;
+  box-shadow: 1px 6px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background: hsl(0, 0%, 98%);
+  border-top: 3px solid hsl(180, 62%, 55%);
+}
+
+.card h2 {
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 10px;
+}
+
+.card .img-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.card p {
+  color: hsl(229, 6%, 66%);
+}
+
+.second-column {
+  max-width: 350px;
+  min-width: 280px;
+  flex-grow: 1;
+  margin: 0px 20px;
+}
+
+.card2 {
+  margin-bottom: 30px;
+  border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+.card3 {
+  border-top: 3px solid hsl(34, 97%, 64%);
+}
+
+.card4 {
+  border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+/* Code for responsiveness goes here */
+
+@media screen and (max-width: 968px) {
+
+  .cards__collection {
+    flex-direction: column;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .card2 {
+    margin-bottom: 20px;
+  }
+}
