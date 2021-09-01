@@ -101,7 +101,9 @@ body {
   .card {
     margin-bottom: 20px;
   }
-
+  .second-column{
+    margin: 0;
+  }
   .card2 {
     margin-bottom: 20px;
   }
