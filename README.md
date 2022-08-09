@@ -1,6 +1,6 @@
 # Frontend Mentor - Four card feature section
 
-![Design preview for the Four card feature section coding challenge](https://pantbibek21.github.io/four-card-feature-section/))
+[Design preview for the Four card feature section coding challenge](https://pantbibek21.github.io/four-card-feature-section/))
 
 ## Welcome! 👋
 
